@@ -5,7 +5,7 @@ client = commands.Bot(command_prefix="s!")
 bot = commands.Bot(command_prefix="s!")
 client.remove_command('help')
 
-modulos = ["cogs.pic","cogs.clima","cogs.botinfo","cogs.music"]
+modulos = ["cogs.pic","cogs.clima","cogs.botinfo","cogs.music","cogs.ping"]
 
 @client.event
 async def on_ready():
